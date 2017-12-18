@@ -2,10 +2,11 @@
   "name": "tts",
   "version": "1.0.0",
   "description": "converts text to speach",
-  "main": "index.js",
-  "scripts": {
-    "test": "tts"
+  "main": "./index.js",
+  "bin": {
+    "tts": "./index.js"
   },
+
   "keywords": [
     "text_to_speach"
   ],
