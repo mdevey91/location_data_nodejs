@@ -1,0 +1,14 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "converts text to speach",
+  "main": "index.js",
+  "scripts": {
+    "test": "tts"
+  },
+  "keywords": [
+    "text_to_speach"
+  ],
+  "author": "Matthew Devey",
+  "license": "ISC"
+}
