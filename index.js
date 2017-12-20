@@ -1,13 +1,21 @@
 #!/usr/bin/env node
 const Promise = require('promise');
 const cmd = require('node-cmd');
+const axios = require('axios');
 
-var msg = new SpeechSynthesisUtterance();
-if (process.argv){
-    msg.text = process.argv 
-}
-else {
-    msg.text = "Please enter text.";
-}
+var googleapi = 'https://maps.googleapis.com/maps/api/geocode/json?';
 
-speechSynthesis.speak(msg);
+console.log(process.argv);
+// if(process.argv) {
+//     googleapi += process.argv[0];
+//     axios.get(googleapi)
+//     .then(function(res) {
+//         console.log(res);
+//     })
+//     .catch(function(error) {
+//         console.log(error);
+//     });
+// }
+// else {
+//     console.log("enter a value after the command.");
+// }
