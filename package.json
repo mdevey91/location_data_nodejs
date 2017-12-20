@@ -1,15 +1,16 @@
 {
   "name": "location_data",
   "version": "1.0.0",
-  "description": "converts text to speech",
+  "description": "gives location data about a city",
   "main": "./index.js",
   "bin": {
-    "ld": "./index.js"
+    "locdat": "./index.js"
   },
   "keywords": [
-    "location"
+    "location-data",
+    "location_data"
   ],
-  "author": "Matthew Devey",
+  "author": "mdevey",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.1",

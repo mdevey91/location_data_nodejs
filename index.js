@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+'use strict';
 const Promise = require('promise');
 const cmd = require('node-cmd');
 const axios = require('axios');
